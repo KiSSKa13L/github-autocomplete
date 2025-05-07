@@ -1,0 +1,51 @@
+
+body {
+  background: #bdbdbd;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.container {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+#search {
+  font-size: 24px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.autocomplete {
+  border: 1px solid black;
+  background: #eee;
+}
+.autocomplete div {
+  padding: 8px;
+  border-top: 1px solid black;
+  cursor: pointer;
+}
+.autocomplete div:hover {
+  background: #4fc3f7;
+}
+.repo-list {
+  margin-top: 20px;
+}
+.repo-item {
+  background: #e573e5;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  position: relative;
+}
+.repo-item .remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}
